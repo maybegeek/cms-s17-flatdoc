@@ -1,5 +1,19 @@
 body {
   color: #69606B;
-  font-family:"Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility;
+}
+
+header {
+  background-color: #09C;
+  color: #ecf0f1;
+}
+
+header h1#flat-title {
+  font:normal 300 4em/1.2 "Open Sans", sans-serif;
+}
+
+header #subtitle {
+  font:italic 300 2em/1.2 "Open Sans", sans-serif;
+  padding-bottom:1em;
 }
