@@ -26,18 +26,23 @@
 <header>
   <div class="grid">
     <div class="row">
-      <h1 id="flat-title" class="c12"></h1>
-      <span id="subtitle" class="c12"></span>
+      <h1 id="flat-title" class="c12"></h1><!-- TODO -->
+      <span id="subtitle" class="c12"></span><!-- TODO -->
     </div>
   </div>
 </header>
 
-
-
-
-  <div class="row" id="flatdoc" role="flatdoc">
-    <div role='flatdoc-menu' class="c4"></div>
-    <div role='flatdoc-content' class="s2 c6"></div>
+<div class="grid">
+  <div id="flatdoc" role="flatdoc" class="row">
+    <div class="waypoint c4">
+      <nav id="flatdoc-menu" role="flatdoc-menu" class="flat-menu flat-sidebar"></nav>
+    </div>
+    <main id="flatdoc-content" role="flatdoc-content" class="c8"></main>
   </div>
+  <footer class="row">
+    <p class="c12"><span id="flat-author"></span></p><!-- TODO -->
+  </footer>
+</div>
+
 </body>
 </html>
