@@ -2,7 +2,7 @@
 title: 'FlatDoc.js extended for YAML!'
 subtitle: 'subtitle, lorem hipster!'
 author: 'Hans Dampf'
-date: 'Thu Apr 13 2017'
+date: '2017-04-13T12:45'
 ---
 
 # Dinge und Sachen
