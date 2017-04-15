@@ -58,7 +58,9 @@
         })
         .done(function (data) {
           if (response.length > 0) response += '\n\n';
-          response += data;
+          //response += data;
+          wrapYamlAndContent = jsyaml.loadFront( data );
+          response = wrapYamlAndContent.__content;
           loadData(locations, response, callback);
         });
     }
