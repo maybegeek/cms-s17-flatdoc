@@ -13,7 +13,9 @@ header h1#flat-title {
   font:normal 300 4em/1.2 "Open Sans", sans-serif;
 }
 
-header #subtitle {
+header #flat-subtitle {
   font:italic 300 2em/1.2 "Open Sans", sans-serif;
   padding-bottom:1em;
 }
+
+
