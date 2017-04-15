@@ -30,3 +30,113 @@ main h1 {
   font-size:3em;
   color:#09C;
 }
+
+div.waypoint {
+  padding-left:0;
+  padding-right:0;
+}
+
+nav a {
+  color:#09C;
+}
+
+nav > ul {
+  padding-left:0;
+  padding-top:20px;
+  list-style-type:none;
+}
+
+nav > ul > li > ul  {
+  padding-left:0;
+  list-style-type:none;
+}
+
+nav > ul > li > ul > li  {
+  margin-bottom:1.1em;
+}
+
+nav > ul > li > ul > li > ul {
+  padding-left:0;
+  list-style-type:none;
+}
+
+nav > ul > li > ul > li > ul > li  {
+  margin-bottom:0.16em;
+}
+
+nav > ul > li > ul > li > ul > li > ul {
+  padding-left:0;
+  list-style-type:none;
+}
+
+nav a {
+  text-decoration:none;
+  padding:0.1em 0.1em 0.1em 0.5em;
+  border-left-width:2px;
+  border-left-style:solid;
+  border-left-color:transparent;
+  display:inline-block;
+  line-height:1.28;
+}
+
+nav a.active {
+  border-left-color:#E67E22;
+          transition: border-left-color .8s ease-in-out;
+  -webkit-transition: border-left-color .8s ease-in-out;
+     -moz-transition: border-left-color .8s ease-in-out;
+}
+
+/* section nav */
+nav > ul > li > ul > li a {
+  font-size:110%;
+  line-height:1.1;
+}
+
+/* sub-section nav */
+nav > ul > li > ul > li > ul > li a {
+  font-size:96%;
+  line-height:1.1;
+  margin-left:1em;
+}
+
+nav > ul > li > ul > li > ul > li a.active {
+}
+
+/* sub-sub-section nav */
+nav > ul > li > ul > li > ul > li > ul > li a {
+  font-size:82%;
+  line-height:1.1;
+  margin-left:1.9em;
+}
+
+nav > ul > li > ul > li > ul > li > ul > li > a.active {
+}
+
+footer {
+  text-align:right;
+}
+
+@media (min-width: 769px) {
+  .stuck {
+    position:fixed;
+    top:0;
+    width:33.32%;
+  }
+}
+
+@media (max-width: 768px) {
+  div.waypoint {
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  #flatdoc-menu nav > ul > li a {
+    font-size:140% !important;
+    border:2px solid transparent !important;
+  }
+  
+  #flatdoc-menu nav > ul > li a:hover {
+    text-decoration:underline;  
+  }
+}
+
