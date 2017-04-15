@@ -18,4 +18,15 @@ header #flat-subtitle {
   padding-bottom:1em;
 }
 
+main h1,
+main h2,
+main h3,
+main h4 {
+  font-weight:normal;
+  line-height:1.2;
+}
 
+main h1 {
+  font-size:3em;
+  color:#09C;
+}
