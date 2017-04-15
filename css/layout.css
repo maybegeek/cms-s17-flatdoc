@@ -112,8 +112,10 @@ nav > ul > li > ul > li > ul > li > ul > li a {
 nav > ul > li > ul > li > ul > li > ul > li > a.active {
 }
 
-footer {
-  text-align:right;
+footer p{
+  color:#09C;
+  font-size:1.2em;
+  margin-top: 0;
 }
 
 @media (min-width: 769px) {
